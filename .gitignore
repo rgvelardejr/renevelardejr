@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Unyong</title>
+
+	<!-- CSS -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+  <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="css/jquery-ui.css rel="stylesheet" type="text/css"">
+    
+  <!-- JS -->
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery-1.10.2.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  
+    
+  </head>
+  
+  <body>
+  	
+    <div id="top-header">
+      <div class="row-fluid">
+        <div class="container">
+          <div class="span10">
+            <a href="#">
+            	<img src="img/png/mini-logo.png" style="height:70px; width:70px">
+            </a>
+            <a href="#about">
+            	<img src="img/png/about.png" style="height:60px; width:60px">
+            </a>
+            <a href="#">
+            	<img src="img/png/porfolio.png" style="height:60px; width:60px">
+            </a>
+            <a href="#">
+            	<img src="img/png/contact.png" style="height:60px; width:60px">
+            </a>
+          </div> <!-- End of right menu -->
+          
+          <div class="span2 social">
+          	<div class="pull-right">
+            <a href="http://www.facebook.com/renevelardejr" target="_blank">
+            	<img src="img/png/facebook-icon.png" style="height:40px; width:40px">
+            </a>
+            <a href="http://www.instagram.com/renevelardejr" target="_blank">
+            	<img src="img/png/instagram-icon.png" style="height:40px; width:40px">
+            </a>
+            </div>
+          </div> <!-- End of social -->
+          
+        </div>
+      </div>
+    </div> <!-- End of top-header -->
+    
+    <div id="page-header">
+    	<div class="row-fluid">
+      	<div class="span12">
+      		<img src="img/png/logo.png">
+        </div> <!-- End of intro-logo -->
+        
+        <div class="row-fluid">
+        	<div class="span12">
+            <ul>
+              <li><a href="#" id="what">what I do</a></li>
+              <li><img src="img/png/dots_small.png"></li>
+              <li><a href="#" id="how">how I do it</a></li>
+              <li><img src="img/png/dots_small.png"></li>
+              <li><a href="#" id="why">why I do it</a></li>
+            </ul>
+          </div>
+        </div> <!-- End of What, How, Why -->
+        	
+        <div id="what-text" class="row-fluid">
+        	<div class="span12">
+						<p>I'am a User Interface Developer from Philippines who loves to create and design websites. <br> I'am passionate about building simple, clean Websitse.<br> I love creating websites which are responsive so the User Interface will have a beautiful look and easy to use</p>
+          </div>
+        </div>  <!-- End of what-text -->
+        
+        <div id="how-text" class="row-fluid">
+        	<div class="span12">
+						<p>By creating websites I've learned the basic skill requireds are HTML/HTML5, CSS/CSS3 and JS. <br> And also as a part of being User Interface Developer I using Joomla to create a websites<br> that allows the users to customize there own pages. </p>
+          </div>
+        </div> <!-- End of how-text -->
+        
+        <div id="why-text" class="row-fluid">
+        	<div class="span12">
+						<p>I started to love and appreciate designing websites. I also want to provide thoose people who wanted to have there own websites.<br> I love being both a designer and a front-end developer as it allows me to have a creative mind <br>and keep on learning something new every day and that’s what keeps me motivated and progressing my skills. </p>
+          </div>
+        </div> <!-- End of why-text -->
+        
+        <!-- Script for hide and show -->
+				<script>
+				$(document).ready(function(){
+				
+					$('#how-text').hide();
+					$('#why-text').hide();
+				
+					$('#what').click(function(){ 
+							$('#what-text').show();
+							$('#how-text').hide();
+							$('#why-text').hide();
+					});
+					
+					$('#how').click(function(){ 
+							$('#what-text').hide();
+							$('#how-text').show();
+							$('#why-text').hide();
+					});
+				
+					$('#why').click(function(){ 
+							$('#what-text').hide();
+							$('#how-text').hide();
+							$('#why-text').show();
+					}); 
+				});
+				</script> <!-- End of script -->
+        
+      </div>
+    </div> <!-- End of page-header -->
+    
+    <div id="about">
+    	<div class="row-fluid">
+      	<div class="span12">
+        	<div class="row-fluid">
+          	<div class="container about-me">
+              <div class="span7 about-me-text">
+                <h1>about me</h1>
+                <p class="intro">I'am a UI Designer and Front End Developer.</p>
+                <p>I do love both designing and coding.</p>
+                <p>I worked at a Business Solution Company as a IT Programmer just for 4 months.</p>
+                <p>After that I started to work on my own website to feature the skills I've learned and Websites that I did.</p>
+                <p>I'am also a freelancer who loves creating and designing websites to make myself more effecient and welcome myself to the world of challenge.</p>
+                <p>When I'm not coding or designing, I'm playing clash of clasn or you'll find me on the court playing some hoops.
+                
+              </div> <!-- End of about-me-text -->
+              
+              <div class="span5 about-me-img">
+              	<img src="img/png/unyong.png">
+              </div> <!-- End of about-me-img -->
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    	 
+      <div class="space">
+      	<div class="row-fluid">
+        	<div class="span12">
+          	<div class="row-fluid">
+            	<div class="container">
+              	<div class="span2">
+                	<a href="https://www.facebook.com/photo.php?fbid=4127345263776&set=t.1426833188&type=3&src=https%3A%2F%2Ffbcdn-sphotos-b-a.akamaihd.net%2Fhphotos-ak-frc3%2Ft1.0-9%2F574894_4127345263776_384547567_n.jpg&size=720%2C960" target="_blank">
+                  <img src="img/jpeg/11.jpg" class="img-polaroid">
+                  </a>                  
+                </div>
+                
+                <div class="span2">
+                	<a href="https://www.facebook.com/photo.php?fbid=4032291092117&l=d5e5272e7a" target="_blank">
+                  <img src="img/jpeg/12.jpg" class="img-polaroid">
+                  </a>
+                </div>
+                
+                <div class="span2">
+                	<a href="https://www.facebook.com/photo.php?fbid=4030135278223&l=c6bc803dc9" target="_blank">
+                  <img src="img/jpeg/13.jpg" class="img-polaroid">
+                  </a>
+                </div>
+                
+                <div class="span2">
+                	<a href="https://www.facebook.com/photo.php?fbid=10202153125296074&l=8121297a23" target="_blank">
+                  <img src="img/jpeg/14.jpg" class="img-polaroid">
+                  </a>
+                </div>
+                
+                <div class="span2">
+                	<a href="https://www.facebook.com/photo.php?fbid=10202018326246182&l=2dac8b5974" target="_blank">
+                  <img src="img/jpeg/15.jpg" class="img-polaroid">
+                  </a>
+                </div>
+                
+                <div class="span2">
+                	<a href="https://www.facebook.com/photo.php?fbid=2957281577551&l=f0b6be88e8" target="_blank">
+                  <img src="img/jpeg/16.jpg" class="img-polaroid">
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>      
+      </div> <!-- End of space -->  
+    
+    
+    </div> <!-- End of about-->
+       
+       <div style="height:700px">
+       asd
+       </div>
+       
+  </body>
+  
+  <script src="js/scroll.js"></script>
+  
+</html>
